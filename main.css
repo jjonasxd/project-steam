@@ -1,0 +1,35 @@
+.settings-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  font-weight: 800;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  gap: 10px;
+}
+
+.settings-container input {
+  text-align: center;
+  width: 50px;
+  background: #dedede;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.settings-container button {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.senhaxx {
+  background-color: #efefef;
+  padding: 10px;
+}

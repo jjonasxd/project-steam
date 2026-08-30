@@ -1,0 +1,147 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    gap: 10px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.logo svg {
+    width: 45px;
+    height: 45px;
+    transition: ease-out 0.2s;
+}
+
+.logo svg:hover {
+    transform: rotate(180deg);
+}
+
+.btn-menu {
+    margin-right: 50px;
+    transition: ease-in-out 0.1s;
+}
+
+.btn-menu:hover {
+    transform: rotate(45deg);
+}
+
+.btn-menu:active {
+    transform: scale(1.1);
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary-dark);
+    flex-direction: column;
+    color: white;
+    height: fit-content;
+    padding: 5rem;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.btn-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-primary-light);
+    transition: ease-in-out 0.15s;
+    gap: 5px;
+}
+
+.btn-buttons button:hover {
+    transform: translateY(-5px);
+}
+
+.btn-buttons button:active {
+    transform: scale(0.98)
+}
+
+.btn-buttons svg {
+    height: 20px;
+    width: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: black;
+    gap: 10rem;
+    color: white;
+    padding: 60px;
+    padding-bottom: 90px;
+}
+
+footer h4 {
+   font-weight: 900;
+   font-size: 17px;
+}
+
+.footer-about, .footer-nav, .footer-contact, .footer-social {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    transition: ease-in-out 1s;
+}
+
+.footer-nav a:hover, .footer-social a:hover {
+    transform: translateY(-1px);
+}
+
+.direitos {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-text-main);
+    width: 100%;
+    height: 4rem;
+    bottom: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .btn-buttons a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 980px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3rem;
+    }
+}
