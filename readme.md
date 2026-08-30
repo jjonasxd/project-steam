@@ -1,0 +1,2 @@
+## projeto rapido
+Eu e o arthur não quer melhorar o projeto então o layout e reutilizado (outro projeto meu), e os codigos estão bem ruim para ser sincero eu não quero passar mais tempo pq to com preguiça.
